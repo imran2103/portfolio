@@ -50,7 +50,6 @@ var form = document.getElementById("my-form");
     var data = new FormData(form);
     ajax(form.method, form.action, data, success, error);
   });
-});
 
 // helper function for sending an AJAX request
 
