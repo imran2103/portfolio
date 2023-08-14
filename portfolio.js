@@ -67,3 +67,11 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+  sidemenu.style.right = "0"; 
+}
+function closemenu(){
+  sidemenu.style.right = "-250px"; 
+}
